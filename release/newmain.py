@@ -2,8 +2,8 @@ import sys
 import sqlite3
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QMessageBox
-from new import Ui_MainWindow
-from addEditCoffeeForm import Ui_Form
+from release.new import Ui_MainWindow
+from release.addEditCoffeeForm import Ui_Form
 
 
 class MyWidget(QMainWindow, Ui_MainWindow):
